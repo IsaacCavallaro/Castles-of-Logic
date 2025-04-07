@@ -66,7 +66,7 @@ export default function About() {
             <div className="flex justify-center">
               <div className="relative w-full max-w-md aspect-square rounded-lg overflow-hidden">
                 <Image
-                  src="/about-image.jpeg"
+                  src="about-image.jpeg"
                   alt="Leonard Cavallaro, Founder"
                   fill
                   className="object-cover"

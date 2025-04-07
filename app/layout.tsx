@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Castles of Logic',
   description: '',
   generator: '',
+  icons: {
+    icon: 'castles-of-logic-logo-mob.png',
+  },
 }
 
 export default function RootLayout({

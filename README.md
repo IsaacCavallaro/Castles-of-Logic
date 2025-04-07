@@ -28,15 +28,3 @@ This project was created to establish an online presence for **Castles of Logic*
 ### UI Components
 
 - **[shadcn/ui](https://ui.shadcn.com/)**
-
-## Development Setup
-
-```bash
-# 1. Clone repository
-git clone https://github.com/[your-repo]/castles-of-logic.git
-
-# 2. Install dependencies
-npm install
-
-# 3. Run development server
-npm run dev
