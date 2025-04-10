@@ -45,12 +45,19 @@ export default function Navbar() {
 
   const scrollToSection = (id: string) => {
     setIsOpen(false)
-
-    // Small delay to ensure the menu closes before scrolling
     setTimeout(() => {
       const element = document.getElementById(id)
       if (element) {
-        element.scrollIntoView({ behavior: "smooth" })
+        const header = document.querySelector('header')
+        const baseNavbarHeight = header?.clientHeight || 60
+        // For mobile, use 80% of the navbar height, or minimum 40px
+        const isMobile = window.innerWidth < 768
+        const navbarHeight = isMobile ? Math.min(baseNavbarHeight * 0.8, 40) : baseNavbarHeight
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset
+        window.scrollTo({
+          top: elementPosition - navbarHeight,
+          behavior: "smooth"
+        })
       }
     }, 100)
   }
@@ -58,14 +65,14 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`sticky top-0 z-40 transition-all duration-300 ${scrolled ? "bg-[#F1EFEC]/95 backdrop-blur-sm shadow-sm" : "bg-[#F1EFEC]"} border-b border-[#D4C9BE]`}
+        className={`sticky top-0 z-40 transition-all duration-300 ${scrolled ? "bg-[#D4C9BE]/95 backdrop-blur-sm shadow-sm" : "bg-[#D4C9BE]"} border-b border-[#D4C9BE]`}
       >
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               {/* Desktop Logo - hidden on mobile */}
               <Image
-                src="castles-of-logic-logo-cropped.png"
+                src="/castles-of-logic-logo-cropped.png"
                 alt="Castles of Logic Logo"
                 width={140}
                 height={60}
@@ -74,10 +81,10 @@ export default function Navbar() {
               />
               {/* Mobile Logo - hidden on desktop */}
               <Image
-                src="castles-of-logic-logo-mob.png"
+                src="/castles-of-logic-logo-mob.png"
                 alt="Castles of Logic Logo"
-                width={40}
-                height={40}
+                width={25}
+                height={25}
                 className="h-auto md:hidden"
                 priority
               />

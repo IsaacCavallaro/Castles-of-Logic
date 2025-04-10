@@ -17,7 +17,7 @@ export default function Hero() {
       {/* Background Image with Overlay - Optimized Approach */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="hero-image.jpeg"
+          src="/hero-image.jpeg"
           alt="Debate Academy Background"
           fill
           className="object-cover"
@@ -58,7 +58,7 @@ export default function Hero() {
         >
           <Button
             onClick={scrollToContact}
-            className="bg-white text-[#123458] hover:bg-[#D4C9BE] hover:text-[#030303] text-lg px-8 py-6"
+            className="bg-[#123458] hover:bg-[#030303] text-white text-lg px-8 py-6"
             size="lg"
           >
             Enquire Now

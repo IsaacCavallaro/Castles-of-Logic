@@ -38,7 +38,7 @@ export default function Faqs() {
                     transition={{ duration: 0.5, delay: 0.1 }}
                   >
                     <AccordionItem value="item-1" className="border-[#D4C9BE]">
-                      <AccordionTrigger className="text-[#123458] font-medium text-lg">
+                      <AccordionTrigger className="text-[#123458] font-medium text-lg text-left">
                         What age groups do you coach?
                       </AccordionTrigger>
                       <AccordionContent className="text-[#030303]">
@@ -55,7 +55,7 @@ export default function Faqs() {
                     transition={{ duration: 0.5, delay: 0.2 }}
                   >
                     <AccordionItem value="item-2" className="border-[#D4C9BE]">
-                      <AccordionTrigger className="text-[#123458] font-medium text-lg">
+                      <AccordionTrigger className="text-[#123458] font-medium text-lg text-left">
                         Does my child need previous debating experience?
                       </AccordionTrigger>
                       <AccordionContent className="text-[#030303]">
@@ -72,7 +72,7 @@ export default function Faqs() {
                     transition={{ duration: 0.5, delay: 0.3 }}
                   >
                     <AccordionItem value="item-3" className="border-[#D4C9BE]">
-                      <AccordionTrigger className="text-[#123458] font-medium text-lg">
+                      <AccordionTrigger className="text-[#123458] font-medium text-lg text-left">
                         How experienced/qualified are your tutors?
                       </AccordionTrigger>
                       <AccordionContent className="text-[#030303]">
@@ -89,7 +89,7 @@ export default function Faqs() {
                     transition={{ duration: 0.5, delay: 0.4 }}
                   >
                     <AccordionItem value="item-4" className="border-[#D4C9BE]">
-                      <AccordionTrigger className="text-[#123458] font-medium text-lg">
+                      <AccordionTrigger className="text-[#123458] font-medium text-lg text-left">
                         Where are sessions held?
                       </AccordionTrigger>
                       <AccordionContent className="text-[#030303]">
@@ -105,7 +105,7 @@ export default function Faqs() {
                     transition={{ duration: 0.5, delay: 0.5 }}
                   >
                     <AccordionItem value="item-5" className="border-[#D4C9BE]">
-                      <AccordionTrigger className="text-[#123458] font-medium text-lg">
+                      <AccordionTrigger className="text-[#123458] font-medium text-lg text-left">
                         How long are the coaching sessions?
                       </AccordionTrigger>
                       <AccordionContent className="text-[#030303]">
@@ -121,7 +121,7 @@ export default function Faqs() {
                     transition={{ duration: 0.5, delay: 0.6 }}
                   >
                     <AccordionItem value="item-6" className="border-[#D4C9BE]">
-                      <AccordionTrigger className="text-[#123458] font-medium text-lg">
+                      <AccordionTrigger className="text-[#123458] font-medium text-lg text-left">
                         What sets Castles of Logic apart?
                       </AccordionTrigger>
                       <AccordionContent className="text-[#030303]">
@@ -146,14 +146,14 @@ export default function Faqs() {
                     transition={{ duration: 0.5, delay: 0.7 }}
                   >
                     <AccordionItem value="item-7" className="border-[#D4C9BE]">
-                      <AccordionTrigger className="text-[#123458] font-medium text-lg">
+                      <AccordionTrigger className="text-[#123458] font-medium text-lg text-left">
                         How much does coaching cost?
                       </AccordionTrigger>
                       <AccordionContent className="text-[#030303]">
                         Rates vary by session type (private/small group) and length. Our tutors are exceptional—and so
                         is our methodology. Email{" "}
-                        <a href="mailto:tutoring@castlesoflogic.com" className="text-[#123458] underline">
-                          tutoring@castlesoflogic.com
+                        <a href="mailto:tutoring@castlesoflogic.com.au" className="text-[#123458] underline">
+                          tutoring@castlesoflogic.com.au
                         </a>{" "}
                         or enquire below for personalised pricing.
                       </AccordionContent>
@@ -166,12 +166,12 @@ export default function Faqs() {
                     transition={{ duration: 0.5, delay: 0.8 }}
                   >
                     <AccordionItem value="item-8" className="border-[#D4C9BE]">
-                      <AccordionTrigger className="text-[#123458] font-medium text-lg">
+                      <AccordionTrigger className="text-[#123458] font-medium text-lg text-left">
                         How do I get started?
                       </AccordionTrigger>
                       <AccordionContent className="text-[#030303]">
                         Call <strong>0412 266 981</strong> or email{" "}
-                        <a href="mailto:tutoring@castlesoflogic.com" className="text-[#123458] underline">
+                        <a href="mailto:tutoring@castlesoflogic.com.au" className="text-[#123458] underline">
                           tutoring@castlesoflogic.com
                         </a>{" "}
                         to book a free intro chat. Let's discuss your goals and see if we're the right fit!
