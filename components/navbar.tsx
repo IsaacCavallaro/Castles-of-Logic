@@ -72,7 +72,7 @@ export default function Navbar() {
             <Link href="/" className="flex items-center">
               {/* Desktop Logo - hidden on mobile */}
               <Image
-                src="/castles-of-logic-logo-cropped.png"
+                src="castles-of-logic-logo-cropped.png"
                 alt="Castles of Logic Logo"
                 width={140}
                 height={60}
@@ -81,7 +81,7 @@ export default function Navbar() {
               />
               {/* Mobile Logo - hidden on desktop */}
               <Image
-                src="/castles-of-logic-logo-mob.png"
+                src="castles-of-logic-logo-mob.png"
                 alt="Castles of Logic Logo"
                 width={25}
                 height={25}

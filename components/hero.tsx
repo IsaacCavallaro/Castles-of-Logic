@@ -17,7 +17,7 @@ export default function Hero() {
       {/* Background Image with Overlay - Optimized Approach */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/hero-image.jpeg"
+          src="hero-image.jpeg"
           alt="Debate Academy Background"
           fill
           className="object-cover"
