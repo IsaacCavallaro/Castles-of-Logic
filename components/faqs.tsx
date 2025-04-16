@@ -172,7 +172,7 @@ export default function Faqs() {
                       <AccordionContent className="text-[#030303]">
                         Call <strong>0412 266 981</strong> or email{" "}
                         <a href="mailto:tutoring@castlesoflogic.com.au" className="text-[#123458] underline">
-                          tutoring@castlesoflogic.com
+                          tutoring@castlesoflogic.com.au
                         </a>{" "}
                         to book a free intro chat. Let's discuss your goals and see if we're the right fit!
                       </AccordionContent>

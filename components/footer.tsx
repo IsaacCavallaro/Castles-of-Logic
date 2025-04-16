@@ -68,8 +68,8 @@ export default function Footer() {
               </li>
               <li className="text-gray-300 flex items-center justify-center md:justify-start gap-2">
                 <Mail className="h-4 w-4 text-gray-400" />
-                <a href="mailto:tutoring@castlesoflogic.com" className="hover:text-white transition-colors">
-                  tutoring@castlesoflogic.com
+                <a href="mailto:tutoring@castlesoflogic.com.au" className="hover:text-white transition-colors">
+                  tutoring@castlesoflogic.com.au
                 </a>
               </li>
               <li className="text-gray-300 flex items-center justify-center md:justify-start gap-2">
