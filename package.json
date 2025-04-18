@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "predeploy": "DEPLOY_TARGET=github npm run build && touch out/.nojekyll",
-    "deploy": "gh-pages -d out"
+    "predeploy": "npm run build && touch out/.nojekyll && cp CNAME out/",
+    "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
