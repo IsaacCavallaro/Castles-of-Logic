@@ -2,7 +2,7 @@
   "name": "castles-of-logic",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://isaaccavallaro.github.io/castles-of-logic",
+  "homepage": "https://castlesoflogic.com.au",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
